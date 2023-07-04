@@ -11,8 +11,6 @@
           <include name="verifyLoginWithValidEmailAndInvalidPassword"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyLoginWithoutProvidingCredentials"/>
-          <include name="verifyLoginWithInvalidEmailAndValidPassword"/>
         </methods>
       </class> <!-- com.tutorialsninja.qa.testcases.Login -->
     </classes>

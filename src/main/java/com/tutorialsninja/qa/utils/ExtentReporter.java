@@ -16,7 +16,7 @@ public class ExtentReporter {
 		File extentReportFile = new File(System.getProperty("user.dir")+"\\test-output\\ExtentReports\\extentReport.html");
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		sparkReporter.config().setTheme(Theme.DARK);
-		sparkReporter.config().setReportName("TutorialsNinja Test Automation esults");
+		sparkReporter.config().setReportName("TutorialsNinja Test Automation results");
 		sparkReporter.config().setDocumentTitle("TutorialsNinja Automation Report");
 		sparkReporter.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 		extentReport.attachReporter(sparkReporter);
